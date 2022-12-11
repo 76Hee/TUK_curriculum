@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR콘텐츠 디자인기초</title>
+
+    <link rel="stylesheet" href="style_detailVR.css">
+</head>
+<body>
+    <div class="wrap">
+
+        <!-- header -->
+        <header>
+            <a href="index.html">
+                <img class="logo" src="image/main_logo.png" alt="">
+            </a>
+            <div class="gnb">
+                <a href="idem.html">산업디자인공학전공</a>
+                <a href="mdem.html">미디어디자인공학전공</a>
+                <a href="#">진로별 수강안내</a>
+            </div>
+        </header>
+    
+        <!-- conA -->
+        <div class="conA">
+            <div class="graybg">
+                <h1>VR콘텐츠 디자인기초</h1>
+                <p>BASIC VR CONTENT DESIGN</p>
+            </div>
+        </div>
+
+        <!-- sub-nav -->
+        <div class="sub-nav">
+            <img src="image/account_balance.png" alt="">
+            <p>미디어디자인공학전공</p>
+            <img src="image/keyboard_arrow_right.png" alt="">
+            <p>VR콘텐츠 디자인기초</p>
+        </div>
+
+        <!-- conB -->
+        <div class="conB">
+            <h1>무엇을 배우나요?</h1>
+            <hr>
+            <p>Blender3D라는 툴에 대한 전반적인 이해와 VR에서 필수적으로 요구되는 3D그래픽스 기초를 학습합니다.
+                또한, 학습한 툴을 이용하여 실제 VR환경을 구성해봄으로 가상 환경의 구축을 목표로합니다.</p>
+        </div>
+
+        <!-- conC -->
+        <div class="conC">
+            <div class="top-text">
+                <h1>학생들의 과제물</h1>
+                <a href="#">더 많은 과제물보기</a>
+            </div>
+            <div class="tab-inner">
+                <input type="radio" name="tab-menu" id="tab1">
+                <input type="radio" name="tab-menu" id="tab2">
+                <div class="btn">
+                    <label for="tab1"><img id="right" src="image/wokr_arrow-right.png" alt=""></label>
+                    <label for="tab2"><img id="left" src="image/wokr_arrow-left.png" alt=""></label>
+                </div>
+                <div class="slide">
+                    <div class="slide-inner">
+                        <div class="work" id="work01"></div>
+                        <div class="work" id="work02"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- conD -->
+        <div class="conD">
+            <h1>과목 정보</h1>
+            <div class="subject-info">
+                <div class="cir" id="cir01">
+                    <div class="info-detail">
+                        <p>사용 프로그램</p>
+                        <img src="image/Blender3D.png" alt="">
+                        <p>Blender3D</p>
+                    </div>
+                </div>
+                <div class="cir" id="cir02">
+                    <div class="info-detail">
+                        <p>교수</p>
+                        <img id="profe_pic" src="image/profe_pic.png" alt="">
+                        <p>김한종 교수님</p>
+                    </div>
+                </div>
+                <div class="cir" id="cir03">
+                    <div class="info-detail">
+                        <p>강의계획서</p>
+                        <img id="sub_plan" src="image/sub_plan.png" alt="">
+                        <button id="btn-modal">살펴보기</button>
+
+                        <div id="modal" class="modal-overlay">
+                            <div class="modal-window">
+                                <div class="title">
+                                    <h2>강의계획서</h2>
+                                </div>
+                                <div class="close-area">X</div>
+                                <div class="content">
+                                    <div class="info-a">
+                                        <div class="info-title">
+                                            <h4>수업정보 살펴보기</h4>
+                                            <img src="image/keyboard_arrow_under.png" alt="">
+                                        </div>
+                                        <div class="info-a-inner">
+                                            <div class="info-a-grid01">
+                                                <div class="info-a-item01" id="item01">교과명</div>
+                                                <div class="info-a-item02" id="item02">VR컨텐츠디자인기초</div>
+                                                <div class="info-a-item01" id="item03">이수구분</div>
+                                                <div class="info-a-item02" id="item04">전공필수</div>
+                                                <div class="info-a-item01" id="item05">교과코드</div>
+                                                <div class="info-a-item02" id="item06">ADE37004</div>
+                                                <div class="info-a-item01" id="item07">학과</div>
+                                                <div class="info-a-item02" id="item08">미디어디자인공학전공</div>
+                                                <div class="info-a-item01" id="item09">교수명</div>
+                                                <div class="info-a-item02" id="item10">김한종</div>
+                                                <div class="info-a-item01" id="item11">이메일</div>
+                                                <div class="info-a-item02" id="item12">hanjongkim@tukorea.ac.kr</div>
+                                            </div>
+                                            <hr>
+                                            <div class="info-a-grid02">
+                                                <div class="info-a-item01" id="item13">교재 및 참고 문헌</div>
+                                                <div class="info-a-item02" id="item14">자체교안 김한종 디자인공학부 2022 , 나의 첫 블렌더 Bengamin 위키북스 2021</div>
+                                                <div class="info-a-item01" id="item15">평가방법</div>
+                                                <div class="info-a-item02" id="item16">중간(30%), 기말(40%), 과제(20%), 출석(10%)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="info-b">
+                                        <div class="info-title">
+                                            <h4>주차별 강의 계획 살펴보기</h4>
+                                            <img src="image/keyboard_arrow_under.png" alt="">
+                                        </div>
+                                        <div class="info-b-inner">
+                                            <div class="info-b-grid">
+                                                <div class="info-b-item01" id="item17">1주</div>
+                                                <div class="info-b-item02" id="item18">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : 오리엔테이션</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item19">2주</div>
+                                                <div class="info-b-item02" id="item20">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Blender 3D Modeling I</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item21">3주</div>
+                                                <div class="info-b-item02" id="item22">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Blender 3D Modeling II</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item23">4주</div>
+                                                <div class="info-b-item02" id="item24">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Material & Material Node</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item25">5주</div>
+                                                <div class="info-b-item02" id="item26">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Texture & UV Mapping</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item27">6주</div>
+                                                <div class="info-b-item02" id="item28">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Rendering</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item29">7주</div>
+                                                <div class="info-b-item02" id="item30">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Midterm Exam</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item31">8주</div>
+                                                <div class="info-b-item02" id="item32">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Armature I</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item33">9주</div>
+                                                <div class="info-b-item02" id="item34">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Armature II</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item35">10주</div>
+                                                <div class="info-b-item02" id="item36">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Animation</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item37">11주</div>
+                                                <div class="info-b-item02" id="item38">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : VR Prototyping (Photoshpere)</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item39">12주</div>
+                                                <div class="info-b-item02" id="item40">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : WebXR</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item41">13주</div>
+                                                <div class="info-b-item02" id="item42">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : VR Environment Development I</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item43">14주</div>
+                                                <div class="info-b-item02" id="item44">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : VR Environment Development II</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item45">15주</div>
+                                                <div class="info-b-item02" id="item46">
+                                                    <div class="item-text">
+                                                        <p>주요학습내용 : Final Demonstration</p>
+                                                        <p>학습목표 :</p>
+                                                        <p>수업운영방법 : </p>
+                                                        <p>학습준비사항 :</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-b-item01" id="item47">16주</div>
+                                                <div class="info-b-item02" id="item48"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- conE -->
+        <div class="conE">
+            <h1>이 수업도 들으면 좋아요</h1>
+            <hr>
+            <div class="good_sub_a">
+                <a href="#"><div class="subject_img"></div></a>
+                <div class="subject_text">
+                    <p>3D콘텐츠 모델링</p>
+                    <p>3DS MAX 프로그램을 사용해 전반적인 기능을 익히고 미디어콘텐츠에서 사용되는 3D오브젝트 모델링 방법에 대해서 학습합니다.  
+                        <br>
+                        <br>
+                        캐릭터, 인테리어, 공간, 제품 모델링을 배울 수 있으며 V-ray를 활용해 렌더링에 대해 학습합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="good_sub_b">
+                <div class="subject_text">
+                    <p>XR디자인</p>
+                    <p>증강현실 기술과 연계되는 콘텐츠를 디자인하는 과정에 대해 학습하며 <br>
+                        전반적인 UX디자인 방법론에 대한 이해와 3D모델링 능력을 함양합니다.
+                    </p>
+                </div>
+                <a href="#"><div class="subject_img"></div></a>
+            </div>
+        </div>
+
+        <!-- conF -->
+        <div class="conF">
+            <h1>다음 수업과 이어져요</h1>
+            <div class="sub_contents">
+                <div class="graybg" style="border-radius:10px">
+                    <p>지금 수업이에요!</p>
+                </div>
+                <div class="main_contents">
+                    <div class="graybg" style="border-radius: 10px;">
+                        <p style="line-height:200px; font-size: 20px;">VR컨텐츠 디자인응용</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="contents">
+                <div class="con sec01">
+                    <a href="https://www.tukorea.ac.kr/tukorea/index.do" target="_blank" class="footer-logo">
+                        <img src="image/footer_logo.png" alt="">
+                    </a>
+                    <div class="footer-gnb">
+                        <a href="https://design.tukorea.ac.kr/design/index.do" target="_blank">디자인공학부 홈페이지</a>
+                        <a href="https://ksc.tukorea.ac.kr/sso/login_stand.jsp" target="_blank">통합정보시스템</a>
+                        <a href="https://eclass.tukorea.ac.kr/ilos/main/main_form.acl" target="_blank">e-Class</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="con sec02">
+                    <p>15073 경기도 시흥시 산기대학로 237 (정왕동) 한국공학대학교 공학관 A동학부 행정실: 031-8041-0660 | 학교대표전화:  031-8041-1000 | 입학안내: 1588-2036 <br>
+                        Copyright© 2022 TUKOREA DESIGN ENGINEERING. ALL RIGHTS RESERVED.</p>
+                    <div class="footer-link">
+                        <a href="https://www.tukorea.ac.kr/tukorea/1054/subview.do" target="_blank">개인정보처리방침</a>
+                        <a href="https://www.tukorea.ac.kr/tukorea/1056/subview.do" target="_blank">정보보호실천수칙</a>
+                        <a href="https://www.tukorea.ac.kr/tukorea/1072/subview.do" target="_blank">이용약관</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+                const loremIpsum = document.getElementById("lorem-ipsum")
+        fetch("https://baconipsum.com/api/?type=all-meat&paras=200&format=html")
+            .then(response => response.text())
+            .then(result => loremIpsum.innerHTML = result)
+        const modal = document.getElementById("modal")
+        function modalOn() {
+            modal.style.display = "flex"
+        }
+        function isModalOn() {
+            return modal.style.display === "flex"
+        }
+        function modalOff() {
+            modal.style.display = "none"
+        }
+        const btnModal = document.getElementById("btn-modal")
+        btnModal.addEventListener("click", e => {
+            modalOn()
+        })
+        const closeBtn = modal.querySelector(".close-area")
+        closeBtn.addEventListener("click", e => {
+            modalOff()
+        })
+        modal.addEventListener("click", e => {
+            const evTarget = e.target
+            if(evTarget.classList.contains("modal-overlay")) {
+                modalOff()
+            }
+        })
+        window.addEventListener("keyup", e => {
+            if(isModalOn() && e.key === "Escape") {
+                modalOff()
+            }
+        })
+    </script>
+</body>
+</html>

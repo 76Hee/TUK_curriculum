@@ -204,9 +204,13 @@ input[name=tab-menu] {
 
 .slide-inner #work01 {
     background-image: url(image/01.jpg);
+    background-position:center center;
+    background-size:cover;
 }
 .slide-inner #work02 {
     background-image: url(image/02.jpg);
+    background-position:center center;
+    background-size:cover;
 }
 
 .tab-inner input[id=tab1]:checked ~ .slide .slide-inner {

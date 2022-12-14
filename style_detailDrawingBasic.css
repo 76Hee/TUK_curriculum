@@ -203,10 +203,10 @@ input[name=tab-menu] {
 }
 
 .slide-inner #work01 {
-    background-image: url(image/work01.png);
+    background-image: url(image/01.jpg);
 }
 .slide-inner #work02 {
-    background-image: url(image/work02.png);
+    background-image: url(image/02.jpg);
 }
 
 .tab-inner input[id=tab1]:checked ~ .slide .slide-inner {
